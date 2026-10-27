@@ -30,7 +30,7 @@ Google Colab with NVCC Compiler
 
 ## PROGRAM:
 
-**Threads = 512**
+<h3>Threads = 512</h3>
 ```
 %%cuda
 #include <stdio.h>
@@ -273,7 +273,7 @@ int main(int argc, char **argv)
     return(0);
 }
 ```
-**Threads = 1023**
+<h3>Threads = 1023</h3>
 ```
 %%cuda
 #include <stdio.h>
@@ -516,7 +516,7 @@ int main(int argc, char **argv)
     return(0);
 }
 ```
-**Threads = 1024**
+<h3>Threads = 1024</h3>
 ```
 %%cuda
 #include <stdio.h>
@@ -759,7 +759,7 @@ int main(int argc, char **argv)
     return(0);
 }
 ```
-**Threads = 256**
+<h3>Threads = 256</h3>
 ```
 %%cuda
 #include <stdio.h>
@@ -1004,17 +1004,18 @@ int main(int argc, char **argv)
 ```
 
 ## OUTPUT:
-**Threads = 512**
+
+<h3>Threads = 512</h3>
 <img width="1631" height="225" alt="image" src="https://github.com/user-attachments/assets/50d7097a-4ba9-499c-8267-e3cb391717f4" />
 
-**Threads = 1023**
+<h3>Threads = 1023</h3>
 <img width="1455" height="225" alt="image" src="https://github.com/user-attachments/assets/f310efbb-ce07-48a5-940b-f723c3ddbdb3" />
 
-**Threads = 1024**
+<h3>Threads = 1024</h3>
 <img width="1523" height="257" alt="image" src="https://github.com/user-attachments/assets/8331aa0c-c1c1-41d3-bd91-55a8229cd8a2" />
 
 
-**Threads = 256**
+<h3>Threads = 256</h3>
 <img width="1472" height="230" alt="image" src="https://github.com/user-attachments/assets/091609ff-2248-4d37-99dc-79e3bcc313ef" />
 
 
